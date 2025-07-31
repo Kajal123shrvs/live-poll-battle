@@ -1,0 +1,10 @@
+{
+  "name": "live-poll-battle",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm start --prefix client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
